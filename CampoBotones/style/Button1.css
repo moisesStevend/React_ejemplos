@@ -1,0 +1,15 @@
+.but_conf{
+  background-color: #f8000;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 20px;
+}
+
+.but_conf #my_input{
+  width: 100px;
+}
+
+.but_conf div{
+  display: inline-block;
+}
