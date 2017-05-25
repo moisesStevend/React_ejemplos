@@ -11,7 +11,7 @@ export default class Graph extends Component {
   }
     cambio(e){
       console.log(e.target.value)
-      if (e.target.value===null){
+      if (e.target.value===''){
         this.setState({
           valor: 0,
         })
